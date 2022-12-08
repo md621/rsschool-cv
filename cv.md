@@ -1,5 +1,3 @@
 # Daniil Malyshev
 
 ## Contacts
-
-### =)
