@@ -2,8 +2,8 @@
 
 ## Contacts:
 
-* [Github] ( https://github.com/md621 )
-* Discord [md621#6140] (https://discordapp.com/users/371225277600104450/)
+* [Github](https://github.com/md621)
+* Discord [md621#6140](https://discordapp.com/users/371225277600104450/)
 
 ## About me:
 
