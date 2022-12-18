@@ -1,1 +1,149 @@
+@font-face {
+    font-family: NotoSans;
+    src: url("assets/fonts/NotoSans-Black.ttf");
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'NotoSans', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 0;
+    color: #000000;
+    background: linear-gradient(to bottom right, pink, rgb(194, 194, 240));
+}
+
+h1 {
+    font-family: 'NotoSans', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+}
+
+a {
+    transition: color 0.5s;
+    text-decoration: none;
+    color: #a136a5;
+}
+
+a:hover {
+    color: #464246;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 64px;
+    padding: 20px 20px 0;
+}
+
+header img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    max-width: 64px;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(pink, rgb(194, 194, 240));
+    writing-mode: vertical-lr;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    padding: 20px 20px 84px;
+    list-style: none;
+}
+
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px 64px;
+}
+
+section {
+    margin-right: 64px;
+}
+
+pre {
+    overflow-x: visible;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0 20px;
+    border-radius: 1em;
+    background-color: #fff;
+}
+
+footer {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, pink, rgb(194, 194, 240));
+}
+
+footer .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    max-height: 64px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer .wrapper a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer .wrapper p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media screen and (max-height: 666px) {
+    nav {
+        justify-content: center;
+        max-width: 128px;
+        writing-mode: horizontal-tb;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    header {
+        margin-right: 128px;
+    }
+
+    section {
+        margin-right: 128px;
+    }
+}
