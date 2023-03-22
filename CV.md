@@ -12,9 +12,13 @@ I am an active employee of the forestry department of the Novgorod region, I am 
 *Agisoft Metashape
 *Paint master
 
-##Education
-###Bachelor : [(https://portal.novsu.ru/dept/31944219/i.1639669/?id=1688973)](Forestry)
+##Education  
 
-##Language
-###Russian : Native
-###English : A1
+###Bachelor : [Forestry](https://portal.novsu.ru/dept/31944219/i.1639669/?id=1688973)  
+
+##Language   
+
+###Russian : Native  
+
+###English : A1  
+
