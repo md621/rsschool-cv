@@ -1,0 +1,122 @@
+@font-face {
+    font-family: NotoSans;
+    src: url("assets/fonts/NotoSans-Black.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    font-family: 'NotoSans', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #000000;
+    background: linear-gradient(to bottom right, pink, rgb(194, 194, 240));
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0 110px 90px 20px;
+}
+
+.nav-list {
+    list-style: none;
+    height: 100%;
+    width: 90px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: linear-gradient(pink, rgb(194, 194, 240));
+    overflow-x: hidden;
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.nav-link {
+    padding: 10px;
+    line-height: 40px;
+    transition: .3s;
+}
+
+h1 {
+    font-family: 'NotoSans', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.link a {
+    color: #a136a5;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.link a:hover {
+    color: #490246;
+}
+
+.code {
+    background-color: #ffffff;
+    display: block;
+    justify-content: space-between;
+    height: auto;
+    width: 600px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+footer {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, pink, rgb(194, 194, 240));
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.year-footer {
+    padding-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.rs-footer {
+    margin-right: 20px;
+    margin-left: 80px;
+}
+
+.git-footer {
+    margin-right: 80px;
+    margin-left: 20px;
+}
