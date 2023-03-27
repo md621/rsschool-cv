@@ -2,14 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <img src="assets/img/photo.jpg" alt="my photo">
-    <link rel="icon" href="assets/icon.ico">
-    <title>cv</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>CV</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/img/favicon.ico" rel="icon">
 </head>
 <body>
-    
+<header class="container">
+    <img alt="my photo" class="center" height="386" src="assets/img/photo.png" width="300">
+    <h1 class="center">Malyshev Daniil</h1>
+</header>
+<nav class="nav">
+    <ul class="nav-list">
+        <li class="link"><a class="nav-link" href="#contacts">Contacts</a></li>
+        <li class="link"><a class="nav-link" href="#summary">Summary</a></li>
+        <li class="link"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="link"><a class="nav-link" href="#code">Code</a></li>
+        <li class="link"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="link"><a class="nav-link" href="#education">Education</a></li>
+        <li class="link"><a class="nav-link" href="#language">Language</a></li>
+    </ul>
+</nav>
+<main class="container">
+    <section class="link" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+            <li>Location: Veliky Novgorod</li>
+            <li>Email : <a href="mailto:md621@yandex.ru">md621@yandex.ru</a></li>
+            <li>Github : <a href="https://github.com/md621">md621</a></li>
+            <li>Discord : <a href="https://discordapp.com/users/371225277600104450/">md621#6140</a></li>
+        </ul>
+    </section>
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>I am an active employee of the forestry department of the Novgorod region, I am responsible for protecting
+            forests from fires, as well as performing remote monitoring work.
+            I amcurrently training as a front-end developer.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Qgis</li>
+            <li>Agisoft Metashape</li>
+            <li>Paint master</li>
+        </ul>
+    </section>
+    <section id="code">
+        <h2>Code example</h2>
+        <pre class="code">
+            <code>
+&lt;footer&gt;
+    &lt;p class="git-footer"&gt;
+       &lt;a&gt;href="https://github.com/md621"&gt;
+            &lt;img src="assets/img/GIT.png" width="50" height="50" alt="rs-school logo"&gt;
+        &lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p&gt;class="year-footer"&gt;2022&lt;/p&gt;
+    &lt;p class="rs-footer"&gt;
+        &lt;a&gt;href="https://rs.school/js/"&gt;
+            &lt;img src="assets/img/rs_school_js.svg" width="100" height="50" alt="rs-school logo"&gt;
+        &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/footer&gt;</code>
+        </pre>
+    </section>
+    <section class="link" id="projects">
+        <h2>Projects</h2>
+        <p><a href="https://github.com/md621/rsschool-cv">Eduaction repository</a></p>
+    </section>
+    <section class="link" id="education">
+        <h2>Education</h2>
+        <p>Bachelor : <a href="https://portal.novsu.ru/dept/31944219/i.1639669/?id=1688973">Forestry</a></p>
+    </section>
+    <section id="language">
+        <h2>Language</h2>
+        <p>Russian : Native</p>
+        <p>English : A1</p>
+    </section>
+</main>
+<footer>
+    <div class="wrapper">
+        <a class="git-footer" href="https://github.com/md621">
+            <img alt="rs-school logo" height="64" src="assets/img/GIT.png" width="64">
+        </a>
+        <p class="year-footer">2022</p>
+        <a class="rs-footer" href="https://rs.school/js/">
+            <img alt="rs-school logo" height="50" src="assets/img/rs_school_js.svg" width="134">
+        </a>
+    </div>
+</footer>
 </body>
 </html>
